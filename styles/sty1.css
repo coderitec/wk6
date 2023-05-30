@@ -1,0 +1,128 @@
+@media screen and (max-width:687px) {
+    
+}
+@media screen and (min-width:688px) {
+    html{
+        --text-color1: white;
+        --text-color2: green;
+    }
+
+    body,ul,p{
+        margin: 0;
+        
+    }
+    
+}
+@media screen and (min-width:920px) {
+    main{
+        color: var(--text-color1);
+        height: 100vh;
+        background-image: url(../images/flowers.jpg);
+        background-color: rgb(37, 37, 37);
+        background-blend-mode: overlay;
+        background-size: cover;
+    }
+
+    nav{
+        margin-bottom: 50px;
+    }
+
+    .main1{
+        padding: 1em 0.5em;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: var(--text-color1);
+        text-transform: capitalize;
+    }
+
+    .main1 span,nav li:first-of-type a{
+        color: var(--text-color2);
+    }
+
+    nav li:last-of-type{
+        padding: 0.5em 1.5em;
+        border:  3px solid var(--text-color2);
+    }
+
+    .main2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main2 img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .main2 h2{
+        color: var(--text-color2);
+    }
+
+    .sect1{
+        background-color: rgb(31, 31, 31);
+        height: 100vh;
+        color: var(--text-color1);
+    }
+
+    .part1{
+        width: 75%;
+        padding: 3em 0;
+        margin: auto;
+        display: flex;
+        gap: 2em;
+    }
+    .part1 img{
+        width: 250px;
+        height: 350px;
+    }
+    
+    .part1 aside{
+        display: flex;
+        gap: 8em;
+
+    }
+
+    .part1 > div > p:first-of-type{
+        color: var(--text-color2);
+    }
+
+    .part1 h2{
+        padding-bottom: 1em;
+    }
+    .part1 h2  span{
+        border-bottom: 3px solid var(--text-color2);
+    }
+    
+    aside{
+        border: 3px solid var(--text-color2);
+        padding: 2em;
+        margin-top: 20px;
+    }
+
+    aside p{
+        padding-top: 10px;
+    }
+
+    input{
+        display: block;
+        margin-top: 10px;
+        background-color: var(--text-color2);
+        border: none;
+        padding: 1em 2em;
+        color: var(--text-color1);
+    }
+}
